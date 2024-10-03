@@ -4,7 +4,7 @@
 }
 
 .logo {
-    width: 23%;
+    width: 1%;
     padding: 1%;
     text-align: center;
 }
@@ -29,8 +29,10 @@ li.inline-block {
 }
 
 .heroImg {
-    height: 600px;
     padding: 25px;
+    text-align: center;
+    max-width: 100%; 
+    height: auto; 
 }
 
 .content {
