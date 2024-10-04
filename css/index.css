@@ -48,6 +48,7 @@ nav {
     margin: 0;                     
     padding: -2%; 
     position: relative;
+    border-width: 100%;
 
     
                         
@@ -63,7 +64,7 @@ nav ul {
 nav li {
     padding: 100%;                 
     display: inline-block;          
-    color: rgb(0, 0, 0);                  
+    color: rgb(255, 255, 255);                  
     text-align: center;           
 }
 
@@ -92,20 +93,22 @@ li.inline-block {
     border: 2px solid #000;      
     margin: 2px;                 
     border-radius: 2px;           
-    background-color: #ffffff;    
+    background-color: #000000;    
     cursor: pointer;               
     transition: background-color 0.3s, transform 0.3s; 
 }
 
 li.inline-block:hover {
-    background-color: #ffffff;     
-    transform: scale(1.05);        
+    background-color: #000000;     
+    transform: scale(1.05);   
+    color: #dcd6d6;     
 }
     
 .heroImg {
     padding: 5px;                
     text-align: center;
     width: 100%;
+
 }
 
 .hero-image {
@@ -113,6 +116,7 @@ li.inline-block:hover {
     height: auto; 
     margin: 0;
     width: 100%;
+    position: absolute;
 }
 
 .Shop {
@@ -163,5 +167,5 @@ footer ul {
 footer li {
     padding: 10px;              
     display: inline-block;       
-    color: rgb(0, 0, 0);               
+    color: rgb(255, 255, 255);               
 }
