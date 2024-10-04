@@ -9,23 +9,46 @@ body {
 
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
 }
 
 .logo {
-    width: 4%;                    /* Adjust as needed */
-    padding: 1%;                  
-    text-align: center;
+    width: 100%;                    /* Adjust as needed */
+    padding: 1%; 
+    position: absolute;
+    right: -12%;
+    top: 0;
+                 
+    
 }
 
+.btnsearch {
+    padding: 10px;
+    background-color: #cbcbcb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: left;
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+    position:absolute;
+    right: 11.8%;
+    top: -1%;
+}
+
+
 nav {
-    background-color: #000;        
+    background-color: #000000;        
     display: flex;                  
-    justify-content: space-between; 
     align-items: center;           
     width: 100%;                    
     margin: 0;                     
-    padding: 0; 
+    padding: -2%; 
+    position: relative;
+
     
                         
 }
@@ -38,10 +61,16 @@ nav ul {
 }
 
 nav li {
-    padding: 10px;                 
+    padding: 100%;                 
     display: inline-block;          
-    color: rgb(0, 0, 0);                   
+    color: rgb(0, 0, 0);                  
     text-align: center;           
+}
+
+
+nav .logo {
+    margin-right: auto;
+    display: inline-block;
 }
 
 .text-center {
@@ -63,7 +92,7 @@ li.inline-block {
     border: 2px solid #000;      
     margin: 2px;                 
     border-radius: 2px;           
-    background-color: #f0f0f0;    
+    background-color: #ffffff;    
     cursor: pointer;               
     transition: background-color 0.3s, transform 0.3s; 
 }
